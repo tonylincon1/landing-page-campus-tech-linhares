@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Inscrição</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="/images/favicons/icon.png" type="image/x-icon" />
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/styleform.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script src="js/validatform.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="pull-left">
+						<a href="index.html" ><img class = "logo" src="images/logo.png" alt=""></a>
+					</div><!-- //LOGO -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="forms">
+				<div class="texto">
+					<h3>VOCÊ ESTÁ PERTO DE GARANTIR SUA CAPACITAÇÃO!</h3>
+					<h2>BORA INICIAR ESSA JORNADA?<h2>
+					<h4>*Baixe o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>, assine de forma manual ou digital e clique em anexar o PDF para realizar sua inscrição.</h4>
+				</div>
+				<div class="content">
+					<form name="form" id="Página1">
+					  <h2>Formulário de Inscrição</h2>
+
+					  <input id="Nome-Completo" name="Nome-Completo" type="text" placeholder="Nome Completo">
+					  <span class='msg-erro msg-nome'></span>
+
+					  <input onkeypress="$(this).mask('000.000.000-00');" id="Documento-(CPF/RG)" name="Documento-(CPF/RG)" type="text" placeholder="CPF">
+					  <span class='msg-erro msg-documento'></span>
+				
+					  <input id="E-mail" name="E-mail" type="text" placeholder="E-mail">
+					  <span class='msg-erro msg-email'></span>
+
+					  <input id="Idade" name="Idade" type="number" placeholder="Idade">
+					  <span class='msg-erro msg-idade'></span>
+
+					  <input onkeypress="$(this).mask('(00) 0 0000-0000');" id="Telefone" name="Telefone" type="text" placeholder="Telefone">
+					  <span class='msg-erro msg-telefone'></span>
+
+					  <select id="Estado" name="Estado" placeholder="Estado">
+						<option value="">Estado</option>
+						<option value="AC">AC</option>
+						<option value="AL">AL</option>
+						<option value="AP">AP</option>
+						<option value="AM">AM</option>
+						<option value="BA">BA</option>
+						<option value="CE">CE</option>
+						<option value="DF">DF</option>
+						<option value="ES">ES</option>
+						<option value="GO">GO</option>
+						<option value="MA">MA</option>
+						<option value="MT">MT</option>
+						<option value="MS">MS</option>
+						<option value="MG">MG</option>
+						<option value="PA">PA</option>
+						<option value="PB">PB</option>
+						<option value="PR">PR</option>
+						<option value="PE">PE</option>
+						<option value="PI">PI</option>
+						<option value="RJ">RJ</option>
+						<option value="RN">RN</option>
+						<option value="RS">RS</option>
+						<option value="RO">RO</option>
+						<option value="RR">RR</option>
+						<option value="SC">SC</option>
+						<option value="SP">SP</option>
+						<option value="SE">SE</option>
+						<option value="TO">TO</option>
+					  </select>
+					  <span class='msg-erro msg-estado'></span>
+
+					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
+					  <span class='msg-erro msg-cidade'></span>
+
+					  <input id="Universidade" name="Universidade" type="text" placeholder="Universidade/Faculdade">
+					  <span class='msg-erro msg-universidade'></span>
+
+					  <select id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" placeholder="Formato">
+						<option value="">Formato</option>
+						<option value="EAD">EAD</option>
+						<option value="Presencial">Presencial</option>
+					  </select>
+					  <span class='msg-erro msg-formato'></span>
+
+					  <input id="turno" name="turno" type="text" placeholder="Turno de Trabalho">
+					  <span class='msg-erro msg-turno'></span>
+
+					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Matrícula">
+					  <span class='msg-erro msg-matricula'></span>
+
+					  <input id="periodo" name="periodo" type="text" placeholder="Período">
+					  <span class='msg-erro msg-periodo'></span>
+
+					  <input id="Curso" name="Curso" type="text" placeholder="Curso">
+					  <span class='msg-erro msg-curso'></span>
+
+					  <select id="Trabalha?" name="Trabalha?" placeholder="Trabalha?">
+						<option value="">Trabalha?</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					  </select>
+					  <span class='msg-erro msg-trabalha'></span>
+
+					  <input id="horario" name="horario" type="text" placeholder="Horário">
+					  <span class='msg-erro msg-horario'></span>
+
+					  <select id="Necessidades-especiais?" name="Necessidades-especiais?" placeholder="Necessidades Especiais?">
+						<option value="">Necessidades Especiais?</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					  </select>
+					  <span class='msg-erro msg-necessidades'></span>
+
+					  <input id="Se-sim-escreva-aqui" name="Se-sim-escreva-aqui" type="text" placeholder="Se sim, escreva aqui">
+					  <span class='msg-erro msg-SeSim'></span>
+
+					  <select id="capacitacao" name="capacitacao" placeholder="Como ficou sabendo da capacitação?">
+					  	<option value="">Como ficou sabendo?</option>
+						<option value="Linkedin">Linkedin</option>
+						<option value="Instragram">Instragram</option>
+						<option value="Whatsapp">Whatsapp</option>
+						<option value="Amigo">Amigo</option>
+						<option value="Comercial">Comercial</option>
+						<option value="Pesquisa na Internet">Pesquisa na Internet</option>
+					  </select>
+					  <span class='msg-erro msg-capacitacao'></span>
+
+					  <select id="Publico-de-Reassentamento?" name="Publico-de-Reassentamento?" placeholder="Publico-de-Reassentamento?">
+						<option value="">Público de Reassentamento?</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					  </select>
+					  <span class='msg-erro msg-publico'></span>
+
+					  <textarea id="Interesse" name="Interesse" placeholder="Carta de intenção (Por que você deve ser selecionado?)"></textarea>
+					  <span class='msg-erro msg-interesse'></span>
+
+					  <label for="LinkQuetionario">Anexar o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>: </label><input type="file"  accept="application/pdf" name="LinkQuetionario" class="LinkQuetionario" id="LinkQuetionario" required>
+					  <span class='msg-erro msg-questionario'></span>
+
+					  <div class="Politicadiv">
+						<input type="checkbox" id="Politica" name="Politica" value="Aceito a Política de Privacidade e Proteção de Dados" required>
+						<label for="Politica"> Li e concordo com o edital e <a href="#popuppolitica">Política de Privacidade de Dados</a></label>
+							<div id="popuppolitica" class="overlay1">
+								<div class="popupforms">
+									<a class="close" href="#forms">x</a>
+									<img class = "logo" src="images/politica/1.png" alt="">
+									<img class = "logo" src="images/politica/2.png" alt="">
+									<img class = "logo" src="images/politica/3.png" alt="">
+									<img class = "logo" src="images/politica/4.png" alt="">
+								</div>
+							</div>
+					  </div>
+					  <span class='msg-erro msg-politica'></span>
+					  <div class="submit_forms">
+					  <input class="btn btn-active" type="submit" value="INSCREVER">
+					  </div>
+					</form>
+			</div>
+		</section><!-- //HOME -->
+
+	</div><!-- //PAGE -->
+	<!-- Footer-->
+	<section id="rodape">
+		<div class="purpose_block1">
+			<div class="bg-black text-center py-5">
+				<div class="container px-5">
+					<div class="text-white-50 small">
+						<div class="mb-2"><img src="images/logo_final.png" alt=""></div>
+						<p>Ainda tem dúvidas? Entre em contato conosco:</p>
+						<p><i class="fa fa-envelope"> oficial@campustechmariana.com.br</i></p>
+						<p><i class="fa fa-phone"> +55 31 3401-1046</i></p>
+						<div class="mb-2">&copy; Todos os direitos reservados a Campus Tech, 2022.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- //TEAM -->
+
+	<!-- Feedback Modal-->
+
+	
+
+</div>
+
+<script src="js/validatform.js"></script>
+</body>
+</html>

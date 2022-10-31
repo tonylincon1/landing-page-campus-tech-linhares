@@ -1,0 +1,335 @@
+.content {width: 50%; border-radius: 4%;}
+
+form#Página1 {margin: 4%; text-align: justify;}
+
+.containerforms{padding-top:8%;text-align: center;width:50%}
+
+.forms h2 {
+    color: #ff8701;
+    text-align: center;
+}
+
+.forms h3 {
+    color: #62186A;
+    text-align: center;
+    line-height: 40px;
+}
+
+.forms h2 {
+    line-height: 60px;
+}
+
+.forms p {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.texto {
+    width: 50%;
+}
+
+.texto h4 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto h4 a {
+    color:#fb133a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forms {display: flex; justify-content: right; padding-right: 2%; padding-left: 2%; padding-bottom: 10%; padding-top: 5%; background-repeat: repeat-y;}
+
+.msg-erro{
+    color: #FB133A; 
+    margin-bottom: 4%;
+}
+
+
+/* Formulário */
+
+#Página1 h2 {
+    color: #FB133A;
+    font-size: 35px;
+    text-align: left;
+    font-family:'Open Sans', sans-serif;
+}
+
+h6 {
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+input::placeholder {
+    color: #400a46;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+  }
+
+select::placeholder {
+color: #400a46;
+font-size: 15px;
+font-family:'Open Sans', sans-serif;;
+}
+
+textarea::placeholder {
+    color: #400a46;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    }
+
+input#Nome-Completo {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#E-mail {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Idade {
+    padding: 10px 8px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    width: 49%;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+input#Telefone,input#horario {
+    padding: 10px 8px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    width: 49%;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.submit_forms {
+    display: flex;
+    justify-content: center;
+}
+
+input#Documento-\(CPF\/RG\),input#capacitacao {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Cidade {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+select#Estado {
+    width: 49%;
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+select#capacitacao {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+input#Universidade {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+input#Formato-\(presencial\/EAD\) {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+input#turno,input#periodo {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+select#Formato-\(presencial\/EAD\) {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+input#Número-de-matrícula {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+input#Curso {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+select#Trabalha\? {
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+select#Necessidades-especiais\? {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+input#Se-sim-escreva-aqui {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+select#Publico-de-Reassentamento\? {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+textarea#Interesse {
+    width: 100%;
+    padding: 10px 8px;
+    background-color: white;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+input#LinkQuetionario {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input[type="file"] {
+    display: inline-block;
+}
+
+label {
+    color: #000000;
+    font-size: 15px
+}
+
+label a {
+    color: #fb133a;
+}
+
+input {
+    -webkit-appearance: auto;
+}
+
+.Politicadiv {
+    margin-bottom: 1%;
+}
+
+input[type="submit"], input[type="file"] {
+    border-color: #00BAA7;
+    border-width: 6px;
+}
+
+span.msg-erro.msg-envio {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+/* Formulário */
+
+@media (max-width: 1024px) {
+
+    .forms .texto h3 {
+        font-size: 20px;
+    }
+
+    .forms .texto h2 {
+        font-size: 40px;
+    }
+
+ }
+
+
+@media (max-width: 767px) {
+
+    .popupforms {
+        margin-top: 15%;
+    }
+
+
+ }
+
+@media (max-width: 479px) {
+    #Página1 h2 {
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .content {
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-radius:0%;
+}
+
+    .btn-active:hover {color: #400a46;}
+
+    .popupforms {
+        margin-top: 35%;
+    }
+
+
+ }
+
+
+@media (max-width: 376px) {
+
+ }
+
+@media (max-width: 320px) { 
+
+}

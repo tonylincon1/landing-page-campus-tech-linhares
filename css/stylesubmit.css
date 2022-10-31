@@ -1,0 +1,53 @@
+body {
+    background-color: #400a46;
+    background-image: none;
+}
+
+.mensagem.de.envio {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mensagem.de.envio a {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1.2%;
+}
+
+.mensagem.de.envio img {
+    display: inline-block;
+    justify-content: center;
+}
+
+.mensagem.de.envio p {
+    color: white;
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+@media (max-width: 768px) {
+
+    .mensagem.de.envio {
+        padding-top: 22%;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .mensagem.de.envio {
+        padding-top: 46%;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .mensagem.de.envio {
+        padding-top: 56%;
+    }
+}

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Campus Tech - GV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="/images/favicons/icon.png" type="image/x-icon" />
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/loader.css" rel="stylesheet" type="text/css">
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="pull-left">
+						<a href="index.html" ><img class = "logo" src="images/logo.png" alt=""></a>
+					</div><!-- //LOGO -->
+
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<a class="btn btn-active" href="inscricao.html" ><span data-hover="Clique aqui">Inscreva-se</span></a>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">					
+				<div class="col-lg-6 col-md-12 col-xs-12">
+						<div class="contents">
+							<h2 class="head-title">CAPACITAÇÃO EM</h2>
+							<h2 class="head-title"><b>EVENTOS DE INOVAÇÃO</b></h2>
+							<p class="tagp">Aprenda na prática como revolucionar o ecossistema universitário de Governador Valadares - MG por meio de eventos relacionados às temáticas de empreendedorismo e inovação.</p>
+						</div>
+						<div class="row1">
+							<div class="col">
+								<div class="service-item">
+								<img src="images/icone1.png" alt="">
+								<p>IDEATHONS</p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="service-item">
+									<img src="images/icone2.png" alt="">
+								<p>BOOTCAMPS</p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="service-item">
+								<img src="images/icone3.png" alt="">
+								<p>HACKATHONS</p>
+								</div>
+							</div>
+						</div>
+				</div>
+
+				<div class="col-lg-6x col-md-12 col-xs-12 p-0">
+					<div class="intro-img">
+						<div class="imagem1">
+							<div class="service-item">
+							<img src="images/Imagem1.png" alt="">
+							<ul class="texto_inicial">
+								<li class="closed">Capacitação com bolsa de estudo</li>
+								<li class="closed">Aulas on-line e presenciais</li>
+								<li class="closed">Realização de evento ao final</li>
+							</ul>
+							<div class="container1">
+								<a class="btn btn-active com_borda_verde" href="inscricao.html" ><span data-hover="Clique aqui">Inscreva-se</span></a>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				   
+			</div>
+		</section><!-- //HOME -->
+
+		
+		<!-- ABOUT -->
+		<section id="oprograma">
+
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+					
+					<!-- ROW -->
+					<div id="motivos" class="row">
+							<h2>MOTIVOS PARA</h2>
+							<h2><b>GARANTIR SUA INSCRIÇÃO</b></h2>
+							<div class="imagens">
+								<div class="service-item">
+								<ul class="motivos_ul">
+									<li><img src="images/motivos_1.png" alt=""></li>
+									<li><img src="images/motivos_2.png" alt=""></li>
+									<li><img src="images/motivos_3.png" alt=""></li>
+									<li><img src="images/motivos_4.png" alt=""></li>
+								</ul>
+								<ul class="motivos_ul_texto">
+									<li><p>Comprovante de participação</p></li>
+									<li><p>Ajuda de custo durante 4 meses</p></li>
+									<li><p>Acesso a metodologias e ferramentas exclusivas</p></li>
+									<li><p>Prática de um Evento de Inovação</p></li>
+								</ul>
+								<img src="images/motivos.png" alt="">
+								</div>
+							</div>
+							<a class="btn btn-active com_borda_verde" href="inscricao.html" ><span>Inscreva-se</span></a>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+
+					<div class="col-lg-6 col-md-12 col-xs-12">
+					
+					<!-- ROW -->
+					<div class="row">
+							<h2>E O QUE</h2>
+							<h2><b><span style="color: #ff8701;">VAMOS APRENDER?</span></b></h2>
+							<div class="atraves_da_img_2">
+							<p>Planejar, organizar e executar eventos de inovação e empreendedorismo, como:</p>
+							<p class="centralizar_p"><span style="color: #FB133A;">IDEATHONS,</span> <span style="color: #00BAA7;">BOOTCAMPS</span> e <span style="color: #FF8701;">HACKATHONS</span></p>
+							<p>direcionados especialmente para o ambiente universitário e voltados para o desenvolvimento de ideias de negócio que utilizem conhecimento de base tecnológica.</p>
+						    </div>
+							<img class="img_oque_vamos_aprender" src="images/o_que_vamos_aprender.png" alt="">
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+				<div class="col-lg-6y col-md-12 col-xs-12 p-0">
+					<div class="service-item">
+						<img src="images/o_que_vamos_aprender2.png" alt="">
+						<div class="container1">
+							<a class="btn btn-active com_borda_verde" href="inscricao.html" ><span data-hover="Clique aqui">Inscreva-se</span></a>
+						</div>
+					</div>
+				</div>
+			</div><!-- //MULTI PURPOSE -->
+			
+			<!-- CLEAN CODE -->
+			<div id="metodologia" class="cleancode_block">
+				
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<div class="tab-pane fade in active1 clearfix" id="tab7">
+						<h2>NOSSA</h2>
+						<h2><b>METODOLOGIA</b></h2>
+						<p>Os conhecimentos adquiridos na participação de eventos de empreendedorismo e inovação são inúmeros e o planejamento e operacionalização de tais projetos proporcionam uma visão ainda mais ampla e completa de todo o processo.</p>
+					</div>
+
+					<ul class="ul_metodologia">
+						<img src="images/i1.png" alt="">
+						<img src="images/i2.png" alt="">
+						<img src="images/i3.png" alt="">
+						<img src="images/i4.png" alt="">
+					</ul>
+					<ul class="ul_metodologia ul_metodologia_w">
+						<a class="btn btn-active hoverboton1 bottonmotodo" href="#tab1" data-toggle="tab">Planejamento</a>
+						<a class="btn btn-active hoverboton2 bottonmotodo" href="#tab2" data-toggle="tab">Ferramentas</a>
+						<a class="btn btn-active hoverboton3 bottonmotodo" href="#tab3" data-toggle="tab">Gestão</a>
+						<a class="btn btn-active hoverboton1 bottonmotodo" href="#tab4" data-toggle="tab">Execução</a>
+					</ul>
+					<!-- CASTOM TAB -->
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active clearfix" id="tab1">
+							<p>Apresentar e detalhar como é o planejamento e realização de eventos, de maneira geral, focados em eventos de inovação, com conteúdos direcionados para execução de orçamento, comunicação e marketing, entre outros.</p>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab2">
+							<p>Proporcionar a conexão entre a teoria e a prática, por meio de aulas que auxiliarão no entendimento e aplicação das metodologias de planejamento e ferramentas para execução de eventos de empreendedorismo e inovação.</p>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab3">
+							<p>Proporcionar o amadurecimento dos participantes nas metodologias, detalhar os tipos de gestão recomendada para cada tipo evento de empreendedorismo e inovação, bem como em quais contextos eles são recomendados.</p>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab4">
+							<p>Definir a temática do evento de inovação a ser realizado pelos universitários na cidade ao final do programa, bem como a capacitação para sensibilização e prospecção do público, organização, execução, definição dos indicadores e análise dos resultados alcançados.</p>
+						</div>
+					</div>
+				</div><!-- //CONTAINER -->
+			</div><!-- //CLEAN CODE -->
+		</section><!-- //ABOUT -->
+		
+		
+		<!-- PROJECTS -->
+		<section id="edital" class="padbot20">
+			<!-- CONTAINER -->
+			<div class="purpose_block">
+						<div class="bloco1">
+						<h2>CONHEÇA</h2>
+						<h2><strong><b><span style="color: #ff8701;">O EDITAL!</span></b></strong></h2>
+						<p>Acesse o Edital do Programa Campus Tech e saiba mais sobre a capacitação em eventos de inovação.</p>
+						<a class="btn btn-active com_borda_verde" href="index.html" ><span data-hover="Baixar">CONHEÇA O<br> EDITAL</span></a>
+						</div>
+						<div class="bloco2">
+							<h3><span style="color: #FB133A;"><b>QUEM PODE SE INSCREVER?</b></span></h3>
+							<ul class="edital_ul">
+								<img src="images/edital_1.png" alt="">
+								<img src="images/edital_2.png" alt="">
+								<img src="images/edital_3.png" alt="">
+							</ul>
+							<ul class="edital_ul_texto">
+								<li><p>Estudantes de graduação e pós-graduação</p></li>
+								<li><p>Residentes da região de Governador Valadares-MG</p></li>
+								<li><p>Que tenham interesse em eventos de inovação</p></li>
+							</ul>
+							<img src="images/image_conheca.png" alt="">
+						</div>
+				</div>
+			</div><!-- //CONTAINER -->
+		</section><!-- //TEAM -->
+		
+
+		<!-- PROJECTS -->
+		<section id="aprender" class="padbot20">
+			<!-- CONTAINER -->
+			<div class="purpose_block">
+			<div class="bloco1">
+				<h2>O QUE VOCÊ</h2>
+				<h2><b>IRÁ APRENDER?</b></h2>
+				<p>Durante a capacitação serão apresentados aspectos teóricos, cases e aplicações práticas para <span style="color: #FB133A;">planejamento, gerenciamento e execução</span> de eventos de empreendedorismo e inovação. Dessa forma, você será capaz de organizar eventos de alto valor agregado, impactando o ambiente universitário e local.</p>
+			</div>
+			<div class="bloco2">
+				<img src="images/trilhas.png" alt="">
+				<h3><span style="color: #FB133A; font-weight: 500;">CONHEÇA AS TRILHAS:</span></h3>
+				<div class="container1">
+					<div class="popup2">
+						<a id="colorpopup1" class="btn btn-active btn_aprender hoverbotonoquevaiaprender1 bottonoquevaiaprender" href="#popup1">CONTEXTU-<br>ALIZAÇÃO</a>
+						<div id="popup1" class="overlay1">
+							<div class="popup">
+								<a class="close" href="#popup2">&times;</a>
+								<h2><span style="color: #400A46; font-weight: 500;">TRILHA 1</span><br><span style="color: #ff8701; font-weight: 800;">CONTEXTUALIZAÇÃO</span></h2>
+								<div class="content">
+									<p>Apresentação dos principais conceitos e conteúdos relacionados às temáticas de inovação e empreendedorismo. Nesta trilha, cada participante terá contato com tópicos como:</p>
+
+									<p>Tendências do empreendedorismo e como aproveitá-las;
+										Oportunidades do mercado;
+										Perfil empreendedor;
+										Tipos de Inovação; 
+										Onde a inovação e empreendedorismo fazem diferença.</p>
+								</div>
+							</div>
+						</div>
+						<a id="colorpopup1" class="btn btn-active btn_aprender hoverbotonoquevaiaprender2 bottonoquevaiaprender" href="#popup3">EVENTOS <br>DE INOVAÇÃO</a>
+						<div id="popup3" class="overlay1">
+							<div class="popup">
+								<a class="close" href="#popup2">&times;</a>
+								<h2><span style="color: #400A46; font-weight: 500;">TRILHA 2</span><br><span style="color: #00BAA7; font-weight: 800;">EVENTOS DE INOVAÇÃO</span></h2>
+								<div class="content">
+									<p>Nesta etapa, os participantes da capacitação irão assimilar objetivos dos eventos de inovação, suas aplicações e resultados, assim como colocar em prática nos cenários acadêmicos e na sociedade.</p>
+
+									<p>Além disso, conhecerão formatos de eventos de inovação e conteúdos específicos do "Problema ao Pitch", para preparar o participante à gerar e estruturar soluções para desafios reais do mercado abordados nesses eventos.</p>
+								</div>
+							</div>
+						</div>
+						<a id="colorpopup1" class="btn btn-active btn_aprender hoverbotonoquevaiaprender3 bottonoquevaiaprender" href="#popup4">PLANEJAMENTO <br>DE EVENTOS</a>
+						<div id="popup4" class="overlay1">
+							<div class="popup">
+								<a class="close" href="#popup2">&times;</a>
+								<h2><span style="color: #FB133A; font-weight: 500;">TRILHA 3</span><br><span style="color: #ff8701; font-weight: 800;">PLANEJAMENTO DE EVENTOS</span></h2>
+								<div class="content">
+									<p>Na fase de planejamento é importante compreender os direcionamentos estratégicos para a execução de um evento de inovação e empreendedorismo, qual será seu impacto e quais são os resultados almejados.</p>
+
+									<p>Nessa etapa, serão discutidos pontos como: definição de temáticas, definição do público-alvo, projeção de equipe, captação de parceiros e recursos e prospecção de pessoas-chave.</p>
+								</div>
+							</div>
+						</div>
+						<a id="colorpopup1" class="btn btn-active btn_aprender hoverbotonoquevaiaprender4 bottonoquevaiaprender" href="#popup5">EVENTO <br>NA PRÁTICA</a>
+						<div id="popup5" class="overlay1">
+							<div class="popup">
+								<a class="close" href="#popup2">&times;</a>
+								<h2><span style="color: #ff8701; font-weight: 500;">TRILHA 4</span><br><span style="color: #ff8701; font-weight: 800;">EVENTO NA PRÁTICA</span></h2>
+								<div class="content">
+									<p>Momento de colocar em prática tudo o que foi aprendido ao longo do Programa Campus Tech e nada melhor do que colocar a mão na massa para garantir o aprendizado. Nesta etapa, os participantes irão atuar na realização de um evento real de inovação na cidade de Governador Valadares/MG.</p>
+
+									<p>Serão realizadas todas as etapas de planejamento estratégico, gerenciamento, execução, pós evento e lições aprendidas. Todo o direcionamento e apoio será fornecido pela organização do programa.</p>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			</div><!-- //CONTAINER -->
+		</section><!-- //TEAM -->
+		
+		
+		<!-- NEWS -->
+		<section id="inscricoes">
+			<div class="purpose_block">
+				<div class="container1">
+					<div class="row1">
+						<h2><b><strong style="color: #FB133A;">E AÍ, BORA SE TORNAR</strong></b></h2>
+						<h2><b>EXPERT EM EVENTOS DE INOVAÇÃO?</b></h2>
+					</div>
+					</div>
+					<a class="btn btn-active com_borda_verde" href="inscricao.html" ><span data-hover="CLIQUE AQUI">INSCREVA-SE</span></a>
+				</div>
+			</div><!-- //CONTAINER -->
+		</section><!-- //NEWS -->
+
+		<!-- TEAM -->
+		<section id="duvidas">
+			<div class="purpose_block">
+				<!-- CONTAINER -->
+				<div class="bloco1">
+					<h2>PERGUNTAS</h2>
+					<h2><b><span style="color: #ff8701;">FREQUENTES</span></b></h2>
+					<a class="btn btn-active com_borda_verde" href="inscricao.html" ><span data-hover="CLIQUE AQUI">INSCREVA-SE</span></a>
+				</div>
+				
+				<div class="bloco2">
+				<button class="accordion">Quem poderá se inscrever para o programa?</button>
+				<div class="panel">
+				<p>Estudantes regularmente matriculados em universidades ou faculdades de Governador Valadares - MG, mediante declaração fornecida pela instituição.</p>
+				</div>
+
+				<button class="accordion">Como posso comprovar minha residência?</button>
+				<div class="panel">
+				<p>Serão aceitos como comprovante de residência em seu nome ou de membro do grupo familiar ou membros da mesma residência (exemplo: repúblicas, pensões, pensionatos, entre outros) dos últimos 3 meses Governador Valadares - MG, distritos e/ou municípios limites:</p>
+				
+				<p><strong>*</strong>Contas de água, gás, energia elétrica ou telefone (fixo ou móvel).</p>
+				<p><strong>*</strong>Contrato de aluguel em vigor, com firma do proprietário do imóvel reconhecida em cartório, acompanhado de um dos comprovantes de conta de água, gás, energia elétrica ou telefone em nome do proprietário do imóvel.</p>
+				<p><strong>*</strong>Declaração do proprietário do imóvel que confirme a residência, com firma reconhecida em cartório, acompanhada de um dos comprovantes de conta de água, gás, energia elétrica ou telefone em nome do proprietário do imóvel.</p>
+				<p><strong>*</strong>Declaração anual do Imposto de Renda Pessoa Física (IRPF).</p>
+				<p><strong>*</strong>Demonstrativo ou comunicado do Instituto Nacional do Seguro Social (INSS) ou da Receita Federal do Brasil (RFB).</p>
+				<p><strong>*</strong>Contracheque emitido por órgão público.</p>
+				<p><strong>*</strong>Boleto bancário de mensalidade escolar, de mensalidade de plano de saúde, de condomínio ou de financiamento habitacional.</p>
+				<p><strong>*</strong>Fatura de cartão de crédito.</p>
+				<p><strong>*</strong>Extrato ou demonstrativo bancário de outras contas, correntes ou de poupança.</p>
+				<p><strong>*</strong>Extrato ou demonstrativo bancário de empréstimo ou aplicação financeira.</p>
+				<p><strong>*</strong>Extrato do Fundo de Garantia do Tempo de Serviço (FGTS).</p>
+				<p><strong>*</strong>Guia ou carnê do Imposto Predial e Territorial Urbano (IPTU) ou do Imposto sobre a Propriedade de Veículos Automotores (IPVA).</p>
+				
+				</div>
+
+				<button class="accordion">A minha inscrição já garante a minha participação no programa?</button>
+				<div class="panel">
+				<p>A inscrição não garantirá a sua participação no programa, sendo ainda necessário passar pela fase de processo seletivo, conforme o edital.</p>
+				</div>
+
+				<button class="accordion">Preciso residir em Governador Valadares - MG para participar do Programa Campus Tech?</button>
+				<div class="panel">
+				<p>O público preferencial para a capacitação é o Governador Valadares - MG, mas caso você seja de alguma das regiões abaixo, também estará apto para concorrer à seleção:</p>
+
+				<p><strong>*Distritos:</strong> Alto de Santa Helena, Baguari, Brejaubinha, Xonin, Chonin de Baixo, Derribadinha, Penha do Cassiano, Santo Antônio do Pontal, Goiabal, São José do Itapinoã, São Vítor, Vila Nova Floresta, Córrego dos Melquíades, Córrego dos Bernardos, Porto das Cachoeiras e Vila Nova Brasília.</p>
+				<p><strong>*Municípios limítrofes:</strong> Açucena, Alpercata, Coroaci, Divino das Laranjeiras, Frei Inocêncio, Galiléia, Marilac, Mathias Lobato, Nova Módica, Santa Efigênia de Minas, São Geraldo da Piedade, Sardoá e Tumiritinga.</p>
+
+				</div>
+
+				<button class="accordion">Ao ingressar no programa, todos os participantes receberão a bolsa de auxílio financeiro?</button>
+				<div class="panel">
+				<p>Sim, a bolsa será disponibilizada a todos os participantes selecionados, durante o período de execução do programa, desde que tenham passado pelo processo de seleção e cumpram com os requisitos mencionados no edital.</p>
+				</div>
+
+				<button class="accordion">Os custos para participação presencial serão pagos pelo programa (transporte e alimentação)?</button>
+				<div class="panel">
+				<p>Não, o valor da bolsa disponibilizada contempla os custos de transporte e de alimentação necessários para participação nas atividades presenciais do programa.</p>
+				</div>
+
+				<button class="accordion">As aulas ao vivo ficarão gravadas para consulta ou para possibilidade de não participação?</button>
+				<div class="panel">
+				<p>Sim, as aulas ficarão gravadas para consulta e para o participante assistir depois, caso tenha necessidade.</p>
+				</div>
+
+				<button class="accordion">Qual prazo tenho para assistir as aulas assíncronas?</button>
+				<div class="panel">
+				<p>Os conteúdos seguem uma sequência cronológica, sendo liberados conforme o cronograma do programa e devem ser cumpridos dentro deste prazo.</p>
+				</div>
+				
+				<button class="accordion">Qual a frequência mínima que devo ter no decorrer do programa?</button>
+				<div class="panel">
+				<p>A frequência mínima geral é de 75% de participação em todas as atividades, sejam elas nas aulas síncronas, assíncronas e encontros presenciais. Ressalta-se que a não participação em dois encontros presenciais consecutivos poderá resultar no desligamento do participante do programa.</p>
+				</div>
+
+				<button class="accordion">O programa fornece certificação?</button>
+				<div class="panel">
+				<p>Após a finalização das atividades do programa, alcançando frequência mínima e cumprindo com os requisitos especificados no edital, o participante receberá uma declaração digital que possibilitará comprovar sua participação no programa. Essa declaração poderá ser impressa e agregará valor ao seu currículo.</p>
+				</div>
+				</div>
+			</div>
+		</section><!-- //TEAM -->
+
+		<script>
+		
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+	
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					this.classList.toggle("active");
+					this.nextElementSibling.classList.toggle("show");
+				}
+			}
+			
+		</script>
+
+	</div><!-- //PAGE -->
+	<!-- Footer-->
+	<section id="rodape">
+		<div class="purpose_block1">
+			<div class="bg-black text-center py-5">
+				<div class="container px-5">
+					<div class="text-white-50 small">
+						<div class="mb-2"><img src="images/logo_final.png" alt=""></div>
+						<p>Ainda tem dúvidas? Entre em contato conosco:</p>
+						<p><i class="fa fa-envelope"> oficial@campustechmariana.com.br</i></p>
+						<p><i class="fa fa-phone"> +55 31 3401-1046</i></p>
+						<div class="mb-2">&copy; Todos os direitos reservados a Campus Tech, 2022.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- //TEAM -->
+
+	<!-- Feedback Modal-->
+
+	
+
+</div>
+</body>
+</html>
