@@ -877,12 +877,16 @@ ul.ul_metodologia img {
 .purpose_block {padding:5% 0 5%; text-align: center;}
 
 .purpose_block p {
-	margin-bottom: 48px;
+	margin-bottom: 30px;
     font-weight: 500;
     line-height: 40px;
     font-size: 30px;
     color: #000000;
 	padding-top: 2%;
+}
+
+.purpose_block_conheca p {
+	margin-bottom: 48px;
 }
 
 #aprender .bloco1 h2 strong b {
