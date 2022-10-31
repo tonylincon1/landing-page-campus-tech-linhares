@@ -66,7 +66,7 @@ body {
 
 .purpose_block1{
 	padding:3%;
-	background-color: #D0BAD3;
+	background-color: rgb(255, 219, 179);
 }
 
 .bg-black.text-center.py-5{
@@ -445,7 +445,7 @@ header {
 	right:0;
 	height:80px;
 	width:100%;
-	background-color:#D0BAD3;
+	background-color:#FFDBB3;
 	box-shadow:0 2px 3px rgba(0,0,0,0.1);
 }
 
@@ -877,7 +877,7 @@ ul.ul_metodologia img {
 .purpose_block {padding:5% 0 5%; text-align: center;}
 
 .purpose_block p {
-	margin-bottom: 30px;
+	margin-bottom: 48px;
     font-weight: 500;
     line-height: 40px;
     font-size: 30px;
@@ -1107,6 +1107,10 @@ div.panel.show {
 	color:#62186A;
 }
 
+.container {
+    max-width: 1270px;
+}
+
 .hoverbotonoquevaiaprender2 {
 	background:#FAF3E0;
 	border-color: #00BAA7;
@@ -1302,6 +1306,12 @@ div.panel.show {
 	-o-transform:scale(0.95);
 	-ms-transform:scale(0.95);
 	-webkit-transform:scale(0.95);
+}
+
+.com_borda_roxa {
+    border-color: rgb(98, 24, 106);
+    border-width: 6px;
+	margin: 0%;
 }
 
 .work_item .work_description {
@@ -2328,6 +2338,10 @@ input[type="color"]:focus {
 	}
 	.col-lg-6 {
 		width: 100%;
+	}
+
+	.container {
+		max-width: 970px;
 	}
 
 	img {
