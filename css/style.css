@@ -554,7 +554,7 @@ header {
 }
 
 .purpose_block .container1 .row1 small {
-	color: white;
+	color: black;
 }
 
 .purpose_block .container1 .row .countdown h2 {
@@ -2930,6 +2930,10 @@ input[type="color"]:focus {
 
 	.purpose_block .panel p {
 		font-size: 20px;
+	}
+
+	.purpose_block .container1 .row1 h2 {
+		font-size: 40px;
 	}
 
 	.bottonmotodo {
