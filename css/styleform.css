@@ -31,6 +31,12 @@ form#Página1 {margin: 4%; text-align: justify;}
     width: 50%;
 }
 
+.video {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .texto h4 {
     color: #000000;
     font-family: 'Poppins', sans-serif;
